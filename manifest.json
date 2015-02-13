@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bugzilla Image Viewer",
+  "description": "This extension makes viewing bugzilla images inline without a need to download them.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bugs.webkit.org/*",
+        "https://bugzilla.mozilla.org/*",
+        "https://www.w3.org/Bugs/*"
+      ],
+      "js": [
+        "inline_image_view.js",
+        "third_party/lightbox/js/jquery-1.11.0.min.js",
+        "third_party/lightbox/js/lightbox.min.js"
+      ],
+      "css": [
+        "third_party/lightbox/css/lightbox.css"
+      ]
+    }
+  ]
+}
