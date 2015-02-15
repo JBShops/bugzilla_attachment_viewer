@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Bugzilla Image Viewer",
-  "description": "This extension makes viewing bugzilla images inline without a need to download them.",
+  "name": "Bugzilla Attachment Viewer",
+  "description": "This extension makes viewing bugzilla attachments inline without a need to download'em.",
   "version": "1.0",
 
   "content_scripts": [
@@ -13,7 +13,7 @@
         "https://www.w3.org/Bugs/*"
       ],
       "js": [
-        "inline_image_view.js",
+        "attachment_viewer.js",
         "third_party/lightbox/js/jquery-1.11.0.min.js",
         "third_party/lightbox/js/lightbox.min.js"
       ],
