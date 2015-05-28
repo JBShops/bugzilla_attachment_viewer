@@ -8,9 +8,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://bugs.webkit.org/*",
-        "https://bugzilla.mozilla.org/*",
-        "https://www.w3.org/Bugs/*"
+        "https://*/*",
+        "http://*/*"
       ],
       "js": [
         "attachment_viewer.js",
