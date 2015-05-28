@@ -3,7 +3,7 @@
 
   "name": "Bugzilla Attachment Viewer",
   "description": "This extension makes viewing bugzilla attachments inline without a need to download'em.",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {
